@@ -1,7 +1,7 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+title: PZC
+description: coding
+url: https://1053226965.github.io/blog
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -28,15 +28,14 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
-  username: vszhub
-  card: summary
-logo: logo.png
+# twitter:
+#   username: pzc
+#   card: summary
+# logo: logo.png
 social:
-  name: Songzi Vong
+  name: 1053226965
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://github.com/1053226965
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +53,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Zhengchao Peng
+  url: https://github.com/1053226965/
+  email: 1053226965@qq.com
