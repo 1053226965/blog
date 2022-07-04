@@ -47,7 +47,7 @@ type hchan struct {
   
 ## select与channel
 具体实现可以看<mark>selectgo()</mark>函数。  
-select内部会将case顺序随机打乱，按cahnnel的地址大小顺序逐一加锁（应该时防止死锁）,接着遍历乱序的case，逐一判断是否可读、可写或者channel是否被关闭了。如果全部都不满足，则将go协程插入recvq或者sendq，并阻塞起来。
+select内部会将case顺序随机打乱，按cahnnel的地址大小顺序逐一加锁（应该是防止死锁）,接着遍历乱序的case，逐一判断是否可读、可写或者channel是否被关闭了。如果全部都不满足，则将go协程插入recvq或者sendq，并阻塞起来。
 {% highlight js %}
 for _, casei := range pollorder {
     casi = int(casei)
