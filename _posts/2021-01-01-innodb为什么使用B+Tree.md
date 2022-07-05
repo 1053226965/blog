@@ -3,7 +3,7 @@ layout: post
 author: pzc
 title: innodb为什么使用B+Tree
 tags: [MysQL, InnoDB]
-date: 2021-01-01 15:32 +0800
+date: 2021-01-01 00:00 +0800
 toc:  true
 ---
 
